@@ -1,28 +1,32 @@
-# ¡Hola! 👋 Soy [Tu Nombre]
+# 🚀 Bienvenidos a mi mundo de código 🌐
 
-**Desarrollador en formación 🚀 | Estudiante en 42Madrid 🎓 | Explorador de la programación 🔍**
+**Estudiante de 42Madrid | Explorador incansable del código | Apasionado por la ciberseguridad**
 
-## 🛠️ Habilidades actuales:
-- Lenguajes: `C`, `Python`, `Bash`, `HTML/CSS`
-- Sistemas operativos: **Linux** (Kali, Ubuntu), **Windows**
-- Especialidades: Ciberseguridad, Programación Estructurada, Algoritmos
+👾 ¡Hola, humano curioso! Si has llegado hasta aquí, probablemente te interese el arte de la programación, al igual que a mí. Estoy construyendo un arsenal de conocimientos en programación, seguridad y sistemas, y este espacio es donde lo comparto todo.
 
-## 🚧 Actualmente trabajando en:
-- 🔐 Creando librerías en C desde cero.
-- 📚 Explorando algoritmos y estructuras de datos.
-- ⚡️ Mejora continua en la resolución de problemas complejos.
+## 🌟 Sobre mí:
+- 🧠 Resolviendo problemas uno a uno en `C`.
+- 💻 Fanático de **Linux** y la ciberseguridad.
+- 🛠️ En constante búsqueda de nuevos desafíos y oportunidades para mejorar mis habilidades.
 
-## 🎯 Próximos proyectos:
-- [ ] 🔄 Dominar recursividad.
-- [ ] 🔧 Contribuir a proyectos open-source.
-- [ ] 🌍 Desplegar aplicaciones web y sistemas seguros.
+## 🛠️ Herramientas y Tecnologías que uso:
+- **Lenguajes**: `C`, `Bash`.
+- **Sistemas operativos**: **Kali Linux**, **Ubuntu**.
+- **Áreas de interés**: Algoritmos, Seguridad Informática, Programación de bajo nivel.
 
-## 🎓 Educación:
-- Estudiante de **Programación y Ciberseguridad** en [42Madrid](https://www.42madrid.com/)
+## 🌱 ¿Qué estoy haciendo ahora?
+- 🔍 Descifrando los misterios de la recursividad.
+- 🛠️ Desarrollando desafíos desde cero en C.
+- 🌐 Aprendiendo a contribuir a la comunidad open-source.
 
-## 📂 Mis Repositorios:
-- 🔥 **[Nombre de Proyecto 1]**: [Descripción breve del proyecto]
-- 🌟 **[Nombre de Proyecto 2]**: [Descripción breve del proyecto]
+## 🎯 Próximos pasos en mi aventura:
+- [ ] Desarrollar y optimizar algoritmos avanzados.
+- [ ] Integrar conocimientos de seguridad en mis proyectos.
+- [ ] Desplegar proyectos que resuelvan problemas del mundo real.
 
-## 🤝 ¡Conéctate conmigo!
-- [LinkedIn](https://linkedin.com/in/ariel-arcos-3731a5)
+## 🌍 ¿Te gustaría conectar?
+- [LinkedIn](https://linkedin.com/in/ariel-arcos-3731a5)  
+
+---
+
+**"El código es mi lenguaje, la seguridad mi misión, y el aprendizaje mi viaje"**
