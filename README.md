@@ -26,7 +26,7 @@
 - [ ] Desplegar proyectos que resuelvan problemas del mundo real.
 
 ## 🌍 ¿Te gustaría conectar?
-- [LinkedIn](https://linkedin.com/in/ariel-arcos-3731a5)  
+- [LinkedIn](https://www.linkedin.com/in/ariel-arcos-3731a5254/?trk=public-profile-join-page)  
 
 ---
 
