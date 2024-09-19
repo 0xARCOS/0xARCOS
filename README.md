@@ -3,7 +3,7 @@
 
 **Estudiante de 42Madrid | Explorador incansable del código | Apasionado por la ciberseguridad**
 
-👾 Si has llegado hasta aquí, probablemente te interese el arte de la programación, al igual que a mí. Estoy construyendo un arsenal de conocimientos en programación, seguridad y sistemas, y este espacio es donde lo comparto todo.
+👾 Estoy construyendo un arsenal de conocimientos en programación, seguridad y sistemas, y este espacio es donde lo comparto todo.
 
 ## 🌟 Sobre mí:
 - 🧠 Resolviendo problemas uno a uno en `C`.
