@@ -7,7 +7,6 @@
 
 ## 🌟 Sobre mí:
 - 🧠 Resolviendo problemas uno a uno en `C`.
-- 💻 Fanático de **Linux** y la ciberseguridad.
 - 🛠️ En constante búsqueda de nuevos desafíos y oportunidades para mejorar mis habilidades.
 
 ## 🛠️ Herramientas y Tecnologías que uso:
@@ -29,5 +28,3 @@
 - [LinkedIn](https://www.linkedin.com/in/ariel-arcos-3731a5254/?trk=public-profile-join-page)  
 
 ---
-
-**"El código es mi lenguaje, la seguridad mi misión, y el aprendizaje mi viaje"**
