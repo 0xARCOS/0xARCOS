@@ -12,7 +12,6 @@
 ## 🛠️ Herramientas y Tecnologías que uso:
 - **Lenguajes**: `C`, `Bash`.
 - **Sistemas operativos**: **Kali Linux**, **Ubuntu**.
-- **Áreas de interés**: Algoritmos, Seguridad Informática, Programación de bajo nivel.
 
 ## 🌱 ¿Qué estoy haciendo ahora?
 - 🔍 Descifrando los misterios de la recursividad.
@@ -20,9 +19,7 @@
 - 🌐 Aprendiendo a contribuir a la comunidad open-source.
 
 ## 🎯 Próximos pasos en mi aventura:
-- [ ] Desarrollar y optimizar algoritmos avanzados.
-- [ ] Integrar conocimientos de seguridad en mis proyectos.
-- [ ] Desplegar proyectos que resuelvan problemas del mundo real.
+
 
 ## 🌍 ¿Te gustaría conectar?
 - [LinkedIn](https://www.linkedin.com/in/ariel-arcos-3731a5254/?trk=public-profile-join-page)  
