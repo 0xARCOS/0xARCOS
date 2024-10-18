@@ -1,7 +1,7 @@
 # 🚀 Bienvenidos a mi mundo de código 🌐 ![level up](https://github.com/user-attachments/assets/06fe45a6-97a8-4852-ab3f-7de76ace6651)
 
 
-**Estudiante de 42Madrid | Explorador incansable del código | Apasionado por la ciberseguridad**
+**Estudiante de 42Madrid**
 
 👾 Estoy construyendo un arsenal de conocimientos en programación, seguridad y sistemas, y este espacio es donde lo comparto todo.
 
@@ -17,8 +17,6 @@
 - 🔍 Descifrando los misterios de la recursividad.
 - 🛠️ Desarrollando desafíos desde cero en C.
 - 🌐 Aprendiendo a contribuir a la comunidad open-source.
-
-## 🎯 Próximos pasos en mi aventura:
 
 
 ## 🌍 ¿Te gustaría conectar?
