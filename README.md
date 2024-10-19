@@ -1,4 +1,4 @@
-# 🚀 Bienvenidos a mi mundo de código 🌐 ![level up](https://github.com/user-attachments/assets/06fe45a6-97a8-4852-ab3f-7de76ace6651)
+# 🚀 Bienvenidos a mi mundo de código
 
 <a href="https://profile.intra.42.fr/users/aarcos"><img src="https://badge.mediaplus.ma/greenbinary/aarcos?1337Badge=off&UM6P=off" width="60%"></a>
 
