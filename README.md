@@ -1,6 +1,6 @@
 #   ━━━━━━━━━━━━━━━ ℍ𝕠𝕝𝕒, 𝕊𝕠𝕪 𝔸𝕣𝕚𝕖𝕝 ━━━━━━━━━━━━━━━
 
-<a href="https://profile.intra.42.fr/users/aarcos"><img src="https://badge.mediaplus.ma/greenbinary/aarcos?1337Badge=off&UM6P=off" width="80%"></a>
+<a href="https://profile.intra.42.fr/users/aarcos"><img src="https://badge.mediaplus.ma/greenbinary/aarcos?1337Badge=off&UM6P=off" width="50%"></a>
 
 👾 Estoy construyendo un arsenal de conocimientos en programación, seguridad y sistemas, y este espacio es donde lo comparto todo.
 
