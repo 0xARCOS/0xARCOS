@@ -1,7 +1,7 @@
 #   ━ 𝕨𝕖𝕝𝕔𝕠𝕞𝕖, ...
 👾 Estoy construyendo un arsenal de conocimientos en programación, seguridad y sistemas, y este espacio es donde lo comparto todo.
 
-<a href="https://profile.intra.42.fr/users/aarcos"><img src="https://badge.mediaplus.ma/greenbinary/jurodrig?1337Badge=off&UM6P=off" width="60%">
+<a href="[https://profile.intra.42.fr/users/aarcos](https://profile.intra.42.fr/users/aarcos)"><img src="https://badge.mediaplus.ma/greenbinary/jurodrig?1337Badge=off&UM6P=off" width="60%">
 ## 🌟 Sobre mí:
 - 🧠 Resolviendo problemas uno a uno en `C`.
 - 🛠️ En constante búsqueda de nuevos desafíos y oportunidades para mejorar mis habilidades.
