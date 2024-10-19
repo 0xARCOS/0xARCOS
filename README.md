@@ -1,14 +1,6 @@
-#   ━━━━━━━━━━━━━━━ WELCOME ━━━━━━━━━━━━━━━
+#   ━━━━━━━━━━━━━━━ ℍ𝕠𝕝𝕒, 𝕊𝕠𝕪 𝔸𝕣𝕚𝕖𝕝 ━━━━━━━━━━━━━━━
 
 <a href="https://profile.intra.42.fr/users/aarcos"><img src="https://badge.mediaplus.ma/greenbinary/aarcos?1337Badge=off&UM6P=off" width="80%"></a>
-
-
-
-[![stats](https://github-readme-stats.vercel.app/api/top-langs/?username=V1nt3r4&theme=blue-green)](https://github.com/V1nt3r4)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=V1nt3r4)](https://github.com/anuraghazra/github-readme-stats)
-
-
-
 
 👾 Estoy construyendo un arsenal de conocimientos en programación, seguridad y sistemas, y este espacio es donde lo comparto todo.
 
@@ -18,7 +10,7 @@
 
 ## 🛠️ Herramientas y Tecnologías que uso:
 - **Lenguajes**: <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/c.svg"></code> , <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/gnubash.svg"></code>
-
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=V1nt3r4)](https://github.com/anuraghazra/github-readme-stats)
 </p> 
 
 ## 🌱 ¿Qué estoy haciendo ahora?
