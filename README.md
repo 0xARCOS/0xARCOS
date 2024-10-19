@@ -5,6 +5,7 @@
 
 
 [![stats](https://github-readme-stats.vercel.app/api/top-langs/?username=V1nt3r4&theme=blue-green)](https://github.com/V1nt3r4)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=V1nt3r4)](https://github.com/anuraghazra/github-readme-stats)
 
 
 
