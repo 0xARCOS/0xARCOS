@@ -10,18 +10,17 @@
 - 🛠️ En constante búsqueda de nuevos desafíos y oportunidades para mejorar mis habilidades.
 
 ## 🛠️ Herramientas y Tecnologías que uso:
-- **Lenguajes**: `C`, `Bash`.
-- **Sistemas operativos**: **Kali Linux**, **Ubuntu**.
+- **Lenguajes**: <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/c.svg"></code> , <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/gnubash.svg"></code>
+- 
 - <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/c.svg"></code>
-
-  <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/gnubash.svg"></code>
   <br />
   <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/git.svg"></code>
   <br />
-  <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/vim.svg"></code>
+
   <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/visualstudiocode.svg"></code>
   <br />
-  <br />
+  <br />![linux](https://github.com/user-attachments/assets/3735b4df-57dd-412f-bd6c-817ebe34e1a2)
+
 </p> 
 
 ## 🌱 ¿Qué estoy haciendo ahora?
