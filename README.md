@@ -6,8 +6,6 @@
 👾 Estoy construyendo un arsenal de conocimientos en programación, seguridad y sistemas, y este espacio es donde lo comparto todo.
 
 ## 🌟 Sobre mí:
-[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ariel-arcos-3731a5254/))
-
 - 🧠 Resolviendo problemas uno a uno en `C`.
 - 🛠️ En constante búsqueda de nuevos desafíos y oportunidades para mejorar mis habilidades.
 
@@ -22,6 +20,6 @@
 
 
 ## 🌍 ¿Te gustaría conectar?
-- [LinkedIn](https://www.linkedin.com/in/ariel-arcos-3731a5254/?trk=public-profile-join-page)  
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ariel-arcos-3731a5254/)
 
 ---
