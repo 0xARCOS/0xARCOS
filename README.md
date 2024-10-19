@@ -9,7 +9,8 @@
 - 🛠️ En constante búsqueda de nuevos desafíos y oportunidades para mejorar mis habilidades.
 
 ## 🛠️ Herramientas y Tecnologías que uso:
-- **Lenguajes**: <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/c.svg"></code> , <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/gnubash.svg"></code>
+- **Lenguajes**
+  
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=V1nt3r4)](https://github.com/anuraghazra/github-readme-stats)
 </p> 
 
