@@ -12,6 +12,17 @@
 ## 🛠️ Herramientas y Tecnologías que uso:
 - **Lenguajes**: `C`, `Bash`.
 - **Sistemas operativos**: **Kali Linux**, **Ubuntu**.
+- <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/c.svg"></code>
+
+  <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/gnubash.svg"></code>
+  <br />
+  <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/git.svg"></code>
+  <br />
+  <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/vim.svg"></code>
+  <code><img width="5%" src="https://unpkg.com/simple-icons@v11/icons/visualstudiocode.svg"></code>
+  <br />
+  <br />
+</p> 
 
 ## 🌱 ¿Qué estoy haciendo ahora?
 - 🔍 Descifrando los misterios de la recursividad.
