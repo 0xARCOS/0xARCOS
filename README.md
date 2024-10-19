@@ -2,7 +2,7 @@
 👾 Estoy construyendo un arsenal de conocimientos en programación, seguridad y sistemas, y este espacio es donde lo comparto todo.
 
 
-[![aarcos's 42 stats](https://badge.mediaplus.ma/black/aarcos?1337Badge=on&UM6P=off)](https://github.com/oakoudad/badge42) width="60%"
+[![aarcos's 42 stats](https://badge.mediaplus.ma/black/aarcos?1337Badge=off&UM6P=off)](https://github.com/oakoudad/badge42) 
 ## 🌟 Sobre mí:
 - 🧠 Resolviendo problemas uno a uno en `C`.
 - 🛠️ En constante búsqueda de nuevos desafíos y oportunidades para mejorar mis habilidades.
