@@ -9,9 +9,18 @@
 - 🛠️ En constante búsqueda de nuevos desafíos y oportunidades para mejorar mis habilidades.
 
 ## 🛠️ Herramientas y Tecnologías que uso:
-  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=V1nt3r4)](https://github.com/anuraghazra/github-readme-stats)
-</p> 
+
+<picture>
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=V1nt3r4&show_icons=true&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <source
+    srcset="https://github-readme-stats.vercel.app/api?username=V1nt3r4&show_icons=true"
+    media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"
+  />
+  <img src="https://github-readme-stats.vercel.app/api?username=V1nt3r4&show_icons=true" />
+</picture>
 
 ## 🌱 ¿Qué estoy haciendo ahora?
 - 🔍 Descifrando los misterios de la recursividad.
