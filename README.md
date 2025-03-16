@@ -1,8 +1,3 @@
-<p align="center">
-  <img src="https://media.giphy.com/media/kFp1FWi5eIVbi/giphy.gif" width="600">
-</p>
-
-
 # 👾 ¡Hola, mundo!
 
 Bienvenido a mi espacio en GitHub. Estoy construyendo un arsenal de conocimientos en **programación, seguridad y sistemas**, y aquí comparto mis avances y proyectos. 🚀  
