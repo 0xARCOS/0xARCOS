@@ -24,9 +24,9 @@ Bienvenido a mi espacio en GitHub. Estoy construyendo un arsenal de conocimiento
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 <picture>
-  <source srcset="https://github-readme-stats.vercel.app/api?username=V1nt3r4&show_icons=true&theme=dark" media="(prefers-color-scheme: dark)" />
+  <source srcset="https://github-readme-stats.vercel.app/api?username=0xARCOS&show_icons=true&theme=dark" media="(prefers-color-scheme: dark)" />
   <source srcset="https://github-readme-stats.vercel.app/api?username=0xARCOS&show_icons=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img src="https://github-readme-stats.vercel.app/api?username=V1nt3r4&show_icons=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=0xARCOS&show_icons=true" />
 </picture>
 
 ---
