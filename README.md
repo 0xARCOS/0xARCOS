@@ -45,8 +45,6 @@ Bienvenido a mi espacio en GitHub. Estoy construyendo un arsenal de conocimiento
 - 🏗️ Construyendo proyectos y desafíos desde cero.
 - 🖥️ Explorando el mundo de **open-source** y contribuyendo a la comunidad.
 
-![42_cursus](https://img.shields.io/badge/42_Cursus-5/13%20Proyectos-blue?style=for-the-badge&logo=42&logoColor=white)
-
 
 ---
 
