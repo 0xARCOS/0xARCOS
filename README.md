@@ -17,8 +17,8 @@ Bienvenido a mi espacio en GitHub. Estoy construyendo un arsenal de conocimiento
 ## 📌 Proyectos Destacados
 
 - 🔹 [`get_next_line`](https://github.com/0xARCOS/get_next_line) – Lectura eficiente de archivos en C
-- 🔹 [`fract-ol`](https://github.com/0xARCOS/fract-ol) – Visualizador de fractales en tiempo real
-- 🔹 [`ft_printf`](https://github.com/0xARCOS/ft_printf) – Implementación de printf en C puro
+- 🔹 [`fract-ol`](https://github.com/0xARCOS/fractol) – Visualizador de fractales en tiempo real
+- 🔹 [`ft_printf`](https://github.com/0xARCOS/printf) – Implementación de printf en C puro
 - 🔹 [`keylogger_tool`](https://github.com/0xARCOS/keylogger_tool) – Keylogger educativo con cifrado XOR
 
 ---
