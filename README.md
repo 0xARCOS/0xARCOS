@@ -6,14 +6,6 @@ Bienvenido a mi espacio en GitHub. Estoy construyendo un arsenal de conocimiento
 
 ---
 
-## 🌟 Sobre mí
-
-- 🔥 Apasionado por resolver problemas en `C` y explorar el mundo de la informática.
-- 🎯 Siempre en busca de nuevos desafíos y formas de mejorar mis habilidades.
-- 📚 Aprendiendo cada día algo nuevo en el mundo del código.
-
----
-
 ## 📌 Proyectos Destacados
 
 - 🔹 [`get_next_line`](https://github.com/0xARCOS/get_next_line) – Lectura eficiente de archivos en C
