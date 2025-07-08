@@ -2,8 +2,6 @@
 
 Bienvenido a mi espacio en GitHub. Estoy construyendo un arsenal de conocimientos en **programación, seguridad y sistemas**, y aquí comparto mis avances y proyectos. 🚀  
 
-[![aarcos's 42 stats](https://badge.mediaplus.ma/darkblue/aarcos?1337Badge=off&UM6P=off)](https://github.com/oakoudad/badge42)
-
 ---
 
 ## 📌 Proyectos Destacados
