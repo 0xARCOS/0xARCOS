@@ -1,7 +1,4 @@
 # 👾 ¡Hola, mundo!
-
-Bienvenido a mi espacio en GitHub. Estoy construyendo un arsenal de conocimientos en **programación, seguridad y sistemas**, y aquí comparto mis avances y proyectos. 🚀  
-
 ---
 
 ## 📌 Proyectos Destacados
@@ -45,7 +42,3 @@ Si quieres hablar sobre código, proyectos o simplemente compartir ideas, aquí 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ariel-arcos-3731a5254/)
 
 ---
-
-<a href="https://www.42madrid.com/">
-  <img src="https://www.42madrid.com/wp-content/uploads/2019/11/logo-header@2x.png" width="40%">
-</a>
