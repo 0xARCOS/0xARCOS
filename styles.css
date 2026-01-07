@@ -10,102 +10,6 @@ body {
     background: linear-gradient(135deg, #0d1117 0%, #1a1f2e 50%, #2d1b00 100%);
     color: #fff;
     overflow-x: hidden;
-    cursor: none;
-}
-
-/* Fondo con dragones voladores */
-.dragons-background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 1;
-    overflow: hidden;
-}
-
-.dragon-flying {
-    position: absolute;
-    font-size: 3rem;
-    opacity: 0.3;
-    animation: flyAcross 20s linear infinite;
-}
-
-.dragon1 {
-    top: 15%;
-    animation-delay: 0s;
-    animation-duration: 25s;
-}
-
-.dragon1::before {
-    content: '🐉';
-}
-
-.dragon2 {
-    top: 45%;
-    animation-delay: 8s;
-    animation-duration: 30s;
-}
-
-.dragon2::before {
-    content: '🐲';
-}
-
-.dragon3 {
-    top: 75%;
-    animation-delay: 15s;
-    animation-duration: 35s;
-}
-
-.dragon3::before {
-    content: '🐉';
-}
-
-@keyframes flyAcross {
-    0% {
-        left: -10%;
-        transform: translateY(0) rotate(0deg);
-    }
-    25% {
-        transform: translateY(-30px) rotate(-5deg);
-    }
-    50% {
-        transform: translateY(0) rotate(0deg);
-    }
-    75% {
-        transform: translateY(30px) rotate(5deg);
-    }
-    100% {
-        left: 110%;
-        transform: translateY(0) rotate(0deg);
-    }
-}
-
-/* Canvas para partículas de fuego */
-#fireParticles {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-    z-index: 2;
-}
-
-/* Cursor dragón personalizado */
-.cursor-dragon {
-    position: fixed;
-    font-size: 2rem;
-    pointer-events: none;
-    z-index: 9999;
-    transition: transform 0.1s ease;
-    animation: dragonFloat 2s ease-in-out infinite;
-}
-
-@keyframes dragonFloat {
-    0%, 100% { transform: translateY(0) rotate(0deg); }
-    50% { transform: translateY(-10px) rotate(5deg); }
 }
 
 /* Contenedor principal */
@@ -230,49 +134,8 @@ body {
     }
 }
 
-/* Logo dragón */
-.dragon-logo-container {
-    margin-bottom: 2rem;
-}
-
-.dragon-logo {
-    width: 200px;
-    height: 200px;
-    animation: dragonAppear 1.5s ease-out;
-}
-
-.dragon-svg {
-    width: 100%;
-    height: 100%;
-    filter: drop-shadow(0 0 20px #ff6b35);
-}
-
-.pulse {
-    animation: pulse 2s ease-in-out infinite;
-}
-
-@keyframes pulse {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.1);
-    }
-}
-
-@keyframes dragonAppear {
-    0% {
-        opacity: 0;
-        transform: scale(0) rotate(360deg);
-    }
-    100% {
-        opacity: 1;
-        transform: scale(1) rotate(0);
-    }
-}
-
-/* Estadísticas del dragón */
-.dragon-stats {
+/* Estadísticas */
+.stats-container-main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -344,16 +207,6 @@ body {
     animation: slideInDown 0.8s ease-out;
 }
 
-.dragon-icon {
-    display: inline-block;
-    animation: dragonBounce 1s ease-in-out infinite;
-}
-
-@keyframes dragonBounce {
-    0%, 100% { transform: translateY(0); }
-    50% { transform: translateY(-10px); }
-}
-
 @keyframes slideInDown {
     from {
         opacity: 0;
@@ -409,15 +262,15 @@ body {
     border-color: #ffd700;
 }
 
-.card-dragon {
+.card-icon {
     font-size: 3rem;
     margin-bottom: 1rem;
-    animation: cardDragonFloat 2s ease-in-out infinite;
+    animation: iconFloat 2s ease-in-out infinite;
 }
 
-@keyframes cardDragonFloat {
-    0%, 100% { transform: translateY(0) rotate(0deg); }
-    50% { transform: translateY(-15px) rotate(10deg); }
+@keyframes iconFloat {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
 }
 
 .project-card h3 {
@@ -431,7 +284,7 @@ body {
     color: #ccc;
 }
 
-.card-flames {
+.card-accent {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -439,15 +292,15 @@ body {
     height: 5px;
     background: linear-gradient(90deg, #ff4500, #ff6b35, #ff8c42, #ff6b35, #ff4500);
     background-size: 200% 100%;
-    animation: flameMove 2s linear infinite;
+    animation: accentMove 2s linear infinite;
 }
 
-@keyframes flameMove {
+@keyframes accentMove {
     0% { background-position: 0% 0%; }
     100% { background-position: 200% 0%; }
 }
 
-.dragon-button {
+.project-button {
     display: inline-block;
     padding: 0.8rem 1.5rem;
     background: linear-gradient(135deg, #ff6b35, #ff8c42);
@@ -459,7 +312,7 @@ body {
     border: 2px solid #ffd700;
 }
 
-.dragon-button:hover {
+.project-button:hover {
     background: linear-gradient(135deg, #ff8c42, #ffd700);
     transform: scale(1.1);
     box-shadow: 0 5px 20px rgba(255, 215, 0, 0.5);
@@ -500,16 +353,9 @@ body {
     transform: scale(1.1) rotateZ(5deg);
 }
 
-.tech-dragon {
+.tech-icon {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
-    animation: techDragonSpin 3s linear infinite;
-}
-
-@keyframes techDragonSpin {
-    0%, 90% { transform: rotate(0deg); }
-    95% { transform: rotate(360deg); }
-    100% { transform: rotate(360deg); }
 }
 
 .tech-level {
@@ -587,86 +433,21 @@ body {
     position: relative;
 }
 
-.progress-dragon {
-    position: absolute;
-    font-size: 1.5rem;
-    animation: dragonProgress 4s linear infinite;
+.progress-bar {
+    width: 70%;
+    height: 100%;
+    background: linear-gradient(90deg, #ff6b35, #ffd700);
+    border-radius: 15px;
+    animation: progressGlow 2s ease-in-out infinite;
 }
 
-@keyframes dragonProgress {
-    0% {
-        left: -5%;
+@keyframes progressGlow {
+    0%, 100% {
+        box-shadow: 0 0 5px #ff6b35;
     }
-    100% {
-        left: 100%;
+    50% {
+        box-shadow: 0 0 15px #ff6b35, 0 0 25px #ffd700;
     }
-}
-
-/* Dragón mascota */
-.dragon-pet-container {
-    margin-top: 3rem;
-    text-align: center;
-    background: linear-gradient(135deg, rgba(255, 107, 53, 0.2), rgba(255, 140, 66, 0.1));
-    border: 3px solid #ffd700;
-    border-radius: 20px;
-    padding: 2rem;
-    max-width: 500px;
-}
-
-.dragon-pet {
-    font-size: 5rem;
-    margin: 1rem 0;
-    display: inline-block;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.dragon-pet:hover {
-    transform: scale(1.2) rotate(15deg);
-}
-
-.pet-stats {
-    display: flex;
-    justify-content: space-around;
-    margin: 1rem 0;
-    font-size: 1.2rem;
-}
-
-.pet-controls {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.feed-button, .play-button, .fire-button {
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-weight: bold;
-    transition: all 0.3s ease;
-}
-
-.feed-button {
-    background: linear-gradient(135deg, #ff6b35, #ff8c42);
-    color: white;
-}
-
-.play-button {
-    background: linear-gradient(135deg, #4CAF50, #8BC34A);
-    color: white;
-}
-
-.fire-button {
-    background: linear-gradient(135deg, #ff4500, #ffd700);
-    color: white;
-}
-
-.feed-button:hover, .play-button:hover, .fire-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0 5px 20px rgba(255, 107, 53, 0.5);
 }
 
 /* Contacto */
@@ -720,88 +501,8 @@ body {
     border-color: #ffd700;
 }
 
-.contact-dragon, .contact-flame {
+.contact-icon, .contact-accent {
     font-size: 2rem;
-}
-
-/* Minijuego */
-.minigame-container {
-    max-width: 600px;
-    text-align: center;
-}
-
-.minigame-container h3 {
-    margin-bottom: 1rem;
-    color: #ffd700;
-}
-
-.game-area {
-    width: 100%;
-    height: 300px;
-    background: linear-gradient(180deg, #000428, #004e92);
-    border: 3px solid #ff6b35;
-    border-radius: 15px;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 1rem;
-}
-
-#gameScore {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 0.5rem 1rem;
-    border-radius: 10px;
-}
-
-.game-dragon {
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 3rem;
-    transition: left 0.1s linear;
-}
-
-.coin {
-    position: absolute;
-    font-size: 2rem;
-    animation: coinFall 3s linear;
-}
-
-@keyframes coinFall {
-    from {
-        top: -50px;
-    }
-    to {
-        top: 100%;
-    }
-}
-
-.start-game-button {
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    background: linear-gradient(135deg, #ffd700, #ff8c42);
-    border: none;
-    border-radius: 15px;
-    color: #000;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.start-game-button:hover {
-    transform: scale(1.1);
-    box-shadow: 0 5px 20px rgba(255, 215, 0, 0.5);
-}
-
-.game-instructions {
-    margin-top: 1rem;
-    color: #ccc;
-    font-style: italic;
 }
 
 /* Navegación */
@@ -838,10 +539,6 @@ body {
 .nav-button:hover {
     background: linear-gradient(135deg, #ff8c42, #ffd700);
     transform: scale(1.05);
-}
-
-.nav-dragon {
-    font-size: 1.5rem;
 }
 
 .slide-indicators {
@@ -892,33 +589,6 @@ body {
     box-shadow: 0 5px 20px rgba(255, 215, 0, 0.5);
 }
 
-/* Contador de dragones */
-.dragon-counter {
-    position: fixed;
-    top: 2rem;
-    left: 2rem;
-    background: rgba(0, 0, 0, 0.7);
-    padding: 1rem 1.5rem;
-    border-radius: 15px;
-    border: 2px solid #ff6b35;
-    font-weight: bold;
-    z-index: 100;
-}
-
-/* Efectos especiales */
-.fire-breath {
-    animation: breathe 0.5s ease-in-out infinite;
-}
-
-@keyframes breathe {
-    0%, 100% {
-        opacity: 0.8;
-    }
-    50% {
-        opacity: 1;
-    }
-}
-
 /* Clases de animación dinámicas */
 .shake {
     animation: shake 0.5s;
@@ -946,22 +616,6 @@ body {
 @keyframes spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
-}
-
-.fire-effect {
-    animation: fireEffect 0.5s;
-}
-
-@keyframes fireEffect {
-    0% {
-        filter: brightness(1);
-    }
-    50% {
-        filter: brightness(2) hue-rotate(45deg);
-    }
-    100% {
-        filter: brightness(1);
-    }
 }
 
 /* Responsive */
@@ -993,25 +647,5 @@ body {
 
     .contact-container {
         flex-direction: column;
-    }
-}
-
-/* Easter eggs */
-.secret-dragon {
-    position: fixed;
-    font-size: 5rem;
-    animation: secretDragonFly 5s linear;
-    pointer-events: none;
-    z-index: 9999;
-}
-
-@keyframes secretDragonFly {
-    from {
-        left: -10%;
-        top: 50%;
-    }
-    to {
-        left: 110%;
-        top: 20%;
     }
 }
