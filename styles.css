@@ -1,0 +1,1017 @@
+/* Reset y base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0d1117 0%, #1a1f2e 50%, #2d1b00 100%);
+    color: #fff;
+    overflow-x: hidden;
+    cursor: none;
+}
+
+/* Fondo con dragones voladores */
+.dragons-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.dragon-flying {
+    position: absolute;
+    font-size: 3rem;
+    opacity: 0.3;
+    animation: flyAcross 20s linear infinite;
+}
+
+.dragon1 {
+    top: 15%;
+    animation-delay: 0s;
+    animation-duration: 25s;
+}
+
+.dragon1::before {
+    content: '🐉';
+}
+
+.dragon2 {
+    top: 45%;
+    animation-delay: 8s;
+    animation-duration: 30s;
+}
+
+.dragon2::before {
+    content: '🐲';
+}
+
+.dragon3 {
+    top: 75%;
+    animation-delay: 15s;
+    animation-duration: 35s;
+}
+
+.dragon3::before {
+    content: '🐉';
+}
+
+@keyframes flyAcross {
+    0% {
+        left: -10%;
+        transform: translateY(0) rotate(0deg);
+    }
+    25% {
+        transform: translateY(-30px) rotate(-5deg);
+    }
+    50% {
+        transform: translateY(0) rotate(0deg);
+    }
+    75% {
+        transform: translateY(30px) rotate(5deg);
+    }
+    100% {
+        left: 110%;
+        transform: translateY(0) rotate(0deg);
+    }
+}
+
+/* Canvas para partículas de fuego */
+#fireParticles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 2;
+}
+
+/* Cursor dragón personalizado */
+.cursor-dragon {
+    position: fixed;
+    font-size: 2rem;
+    pointer-events: none;
+    z-index: 9999;
+    transition: transform 0.1s ease;
+    animation: dragonFloat 2s ease-in-out infinite;
+}
+
+@keyframes dragonFloat {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(5deg); }
+}
+
+/* Contenedor principal */
+.presentation-container {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Slides */
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.slide.active {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+.slide.prev {
+    transform: translateX(-100%);
+}
+
+/* Títulos épicos */
+.title-epic {
+    font-size: 4rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    animation: titleAppear 1.5s ease-out;
+}
+
+.glow-text {
+    text-shadow:
+        0 0 10px #ff6b35,
+        0 0 20px #ff6b35,
+        0 0 30px #ff6b35,
+        0 0 40px #ff8c42;
+    animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+    0%, 100% {
+        text-shadow:
+            0 0 10px #ff6b35,
+            0 0 20px #ff6b35,
+            0 0 30px #ff6b35;
+    }
+    50% {
+        text-shadow:
+            0 0 20px #ff6b35,
+            0 0 30px #ff6b35,
+            0 0 40px #ff6b35,
+            0 0 50px #ff8c42,
+            0 0 60px #ff8c42;
+    }
+}
+
+@keyframes titleAppear {
+    0% {
+        opacity: 0;
+        transform: scale(0.5) rotateY(180deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotateY(0);
+    }
+}
+
+.subtitle-epic {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    animation: slideInLeft 1s ease-out 0.5s backwards;
+}
+
+.highlight {
+    color: #ff6b35;
+    font-weight: bold;
+    text-shadow: 0 0 10px #ff6b35;
+}
+
+.epic-description {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #ffd700;
+    animation: slideInRight 1s ease-out 0.7s backwards;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Logo dragón */
+.dragon-logo-container {
+    margin-bottom: 2rem;
+}
+
+.dragon-logo {
+    width: 200px;
+    height: 200px;
+    animation: dragonAppear 1.5s ease-out;
+}
+
+.dragon-svg {
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(0 0 20px #ff6b35);
+}
+
+.pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes dragonAppear {
+    0% {
+        opacity: 0;
+        transform: scale(0) rotate(360deg);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+}
+
+/* Estadísticas del dragón */
+.dragon-stats {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 500px;
+    max-width: 90%;
+}
+
+.stat-item {
+    background: rgba(255, 107, 53, 0.1);
+    border: 2px solid #ff6b35;
+    border-radius: 15px;
+    padding: 1rem;
+    animation: statAppear 1s ease-out backwards;
+}
+
+.stat-item:nth-child(1) { animation-delay: 0.9s; }
+.stat-item:nth-child(2) { animation-delay: 1.1s; }
+.stat-item:nth-child(3) { animation-delay: 1.3s; }
+
+@keyframes statAppear {
+    from {
+        opacity: 0;
+        transform: translateY(30px) rotateX(90deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) rotateX(0);
+    }
+}
+
+.stat-icon {
+    font-size: 1.5rem;
+    margin-right: 0.5rem;
+}
+
+.stat-label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.stat-bar {
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    height: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.stat-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #ff6b35, #ffd700);
+    border-radius: 10px;
+    animation: fillBar 2s ease-out forwards;
+    box-shadow: 0 0 10px #ff6b35;
+}
+
+@keyframes fillBar {
+    from {
+        width: 0 !important;
+    }
+}
+
+/* Títulos de slides */
+.slide-title {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    animation: slideInDown 0.8s ease-out;
+}
+
+.dragon-icon {
+    display: inline-block;
+    animation: dragonBounce 1s ease-in-out infinite;
+}
+
+@keyframes dragonBounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes slideInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Grid de proyectos */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    max-width: 1200px;
+    padding: 1rem;
+}
+
+.project-card {
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(255, 140, 66, 0.05));
+    border: 3px solid #ff6b35;
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    animation: cardAppear 0.8s ease-out backwards;
+    cursor: pointer;
+}
+
+.project-card:nth-child(1) { animation-delay: 0.2s; }
+.project-card:nth-child(2) { animation-delay: 0.4s; }
+.project-card:nth-child(3) { animation-delay: 0.6s; }
+.project-card:nth-child(4) { animation-delay: 0.8s; }
+
+@keyframes cardAppear {
+    from {
+        opacity: 0;
+        transform: translateY(50px) scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+.project-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 10px 30px rgba(255, 107, 53, 0.5);
+    border-color: #ffd700;
+}
+
+.card-dragon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    animation: cardDragonFloat 2s ease-in-out infinite;
+}
+
+@keyframes cardDragonFloat {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-15px) rotate(10deg); }
+}
+
+.project-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #ffd700;
+}
+
+.project-card p {
+    margin-bottom: 1rem;
+    color: #ccc;
+}
+
+.card-flames {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(90deg, #ff4500, #ff6b35, #ff8c42, #ff6b35, #ff4500);
+    background-size: 200% 100%;
+    animation: flameMove 2s linear infinite;
+}
+
+@keyframes flameMove {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 200% 0%; }
+}
+
+.dragon-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(135deg, #ff6b35, #ff8c42);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    border: 2px solid #ffd700;
+}
+
+.dragon-button:hover {
+    background: linear-gradient(135deg, #ff8c42, #ffd700);
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(255, 215, 0, 0.5);
+}
+
+/* Tech Stack */
+.tech-stack {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin-bottom: 2rem;
+}
+
+.tech-item {
+    text-align: center;
+    animation: techAppear 0.8s ease-out backwards;
+    transition: transform 0.3s ease;
+}
+
+.tech-item:nth-child(1) { animation-delay: 0.2s; }
+.tech-item:nth-child(2) { animation-delay: 0.4s; }
+.tech-item:nth-child(3) { animation-delay: 0.6s; }
+.tech-item:nth-child(4) { animation-delay: 0.8s; }
+
+@keyframes techAppear {
+    from {
+        opacity: 0;
+        transform: rotateY(180deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateY(0);
+    }
+}
+
+.tech-item:hover {
+    transform: scale(1.1) rotateZ(5deg);
+}
+
+.tech-dragon {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    animation: techDragonSpin 3s linear infinite;
+}
+
+@keyframes techDragonSpin {
+    0%, 90% { transform: rotate(0deg); }
+    95% { transform: rotate(360deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.tech-level {
+    margin-top: 0.5rem;
+    color: #ffd700;
+    font-size: 0.9rem;
+    font-style: italic;
+}
+
+.stats-container {
+    margin-top: 2rem;
+    animation: fadeIn 1.5s ease-out 1s backwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.github-stats {
+    border: 3px solid #ff6b35;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 107, 53, 0.5);
+}
+
+/* Aventuras */
+.adventures-container {
+    max-width: 800px;
+    width: 100%;
+}
+
+.adventure-item {
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.15), rgba(255, 140, 66, 0.1));
+    border: 2px solid #ff6b35;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    overflow: hidden;
+    animation: adventureAppear 0.8s ease-out backwards;
+}
+
+.adventure-item:nth-child(1) { animation-delay: 0.2s; }
+.adventure-item:nth-child(2) { animation-delay: 0.4s; }
+.adventure-item:nth-child(3) { animation-delay: 0.6s; }
+
+@keyframes adventureAppear {
+    from {
+        opacity: 0;
+        transform: translateX(-100px) rotateZ(-5deg);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0) rotateZ(0);
+    }
+}
+
+.adventure-icon {
+    font-size: 2rem;
+    float: left;
+    margin-right: 1rem;
+}
+
+.adventure-item p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.adventure-progress {
+    margin-top: 1rem;
+    height: 30px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+}
+
+.progress-dragon {
+    position: absolute;
+    font-size: 1.5rem;
+    animation: dragonProgress 4s linear infinite;
+}
+
+@keyframes dragonProgress {
+    0% {
+        left: -5%;
+    }
+    100% {
+        left: 100%;
+    }
+}
+
+/* Dragón mascota */
+.dragon-pet-container {
+    margin-top: 3rem;
+    text-align: center;
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.2), rgba(255, 140, 66, 0.1));
+    border: 3px solid #ffd700;
+    border-radius: 20px;
+    padding: 2rem;
+    max-width: 500px;
+}
+
+.dragon-pet {
+    font-size: 5rem;
+    margin: 1rem 0;
+    display: inline-block;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.dragon-pet:hover {
+    transform: scale(1.2) rotate(15deg);
+}
+
+.pet-stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.pet-controls {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.feed-button, .play-button, .fire-button {
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.feed-button {
+    background: linear-gradient(135deg, #ff6b35, #ff8c42);
+    color: white;
+}
+
+.play-button {
+    background: linear-gradient(135deg, #4CAF50, #8BC34A);
+    color: white;
+}
+
+.fire-button {
+    background: linear-gradient(135deg, #ff4500, #ffd700);
+    color: white;
+}
+
+.feed-button:hover, .play-button:hover, .fire-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(255, 107, 53, 0.5);
+}
+
+/* Contacto */
+.contact-text {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem 3rem;
+    background: linear-gradient(135deg, rgba(255, 107, 53, 0.2), rgba(255, 140, 66, 0.1));
+    border: 3px solid #ff6b35;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    animation: contactAppear 0.8s ease-out backwards;
+}
+
+.contact-link:nth-child(1) { animation-delay: 0.2s; }
+.contact-link:nth-child(2) { animation-delay: 0.4s; }
+
+@keyframes contactAppear {
+    from {
+        opacity: 0;
+        transform: scale(0.5) rotate(180deg);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1) rotate(0);
+    }
+}
+
+.contact-link:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 30px rgba(255, 107, 53, 0.5);
+    border-color: #ffd700;
+}
+
+.contact-dragon, .contact-flame {
+    font-size: 2rem;
+}
+
+/* Minijuego */
+.minigame-container {
+    max-width: 600px;
+    text-align: center;
+}
+
+.minigame-container h3 {
+    margin-bottom: 1rem;
+    color: #ffd700;
+}
+
+.game-area {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(180deg, #000428, #004e92);
+    border: 3px solid #ff6b35;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 1rem;
+}
+
+#gameScore {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+}
+
+.game-dragon {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    transition: left 0.1s linear;
+}
+
+.coin {
+    position: absolute;
+    font-size: 2rem;
+    animation: coinFall 3s linear;
+}
+
+@keyframes coinFall {
+    from {
+        top: -50px;
+    }
+    to {
+        top: 100%;
+    }
+}
+
+.start-game-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #ffd700, #ff8c42);
+    border: none;
+    border-radius: 15px;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.start-game-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(255, 215, 0, 0.5);
+}
+
+.game-instructions {
+    margin-top: 1rem;
+    color: #ccc;
+    font-style: italic;
+}
+
+/* Navegación */
+.navigation {
+    position: fixed;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    z-index: 100;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem 2rem;
+    border-radius: 50px;
+    border: 2px solid #ff6b35;
+}
+
+.nav-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background: linear-gradient(135deg, #ff6b35, #ff8c42);
+    border: 2px solid #ffd700;
+    border-radius: 10px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.nav-button:hover {
+    background: linear-gradient(135deg, #ff8c42, #ffd700);
+    transform: scale(1.05);
+}
+
+.nav-dragon {
+    font-size: 1.5rem;
+}
+
+.slide-indicators {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.indicator {
+    width: 12px;
+    height: 12px;
+    background: rgba(255, 107, 53, 0.3);
+    border: 2px solid #ff6b35;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.indicator:hover {
+    background: rgba(255, 107, 53, 0.6);
+    transform: scale(1.2);
+}
+
+.indicator.active {
+    background: #ffd700;
+    border-color: #ffd700;
+    box-shadow: 0 0 10px #ffd700;
+}
+
+/* Botón pantalla completa */
+.fullscreen-button {
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #ff6b35, #ff8c42);
+    border: 2px solid #ffd700;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 100;
+    transition: all 0.3s ease;
+}
+
+.fullscreen-button:hover {
+    transform: scale(1.1) rotate(90deg);
+    box-shadow: 0 5px 20px rgba(255, 215, 0, 0.5);
+}
+
+/* Contador de dragones */
+.dragon-counter {
+    position: fixed;
+    top: 2rem;
+    left: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    border: 2px solid #ff6b35;
+    font-weight: bold;
+    z-index: 100;
+}
+
+/* Efectos especiales */
+.fire-breath {
+    animation: breathe 0.5s ease-in-out infinite;
+}
+
+@keyframes breathe {
+    0%, 100% {
+        opacity: 0.8;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+/* Clases de animación dinámicas */
+.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    75% { transform: translateX(10px); }
+}
+
+.jump {
+    animation: jump 0.5s;
+}
+
+@keyframes jump {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-30px); }
+}
+
+.spin {
+    animation: spin 1s;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.fire-effect {
+    animation: fireEffect 0.5s;
+}
+
+@keyframes fireEffect {
+    0% {
+        filter: brightness(1);
+    }
+    50% {
+        filter: brightness(2) hue-rotate(45deg);
+    }
+    100% {
+        filter: brightness(1);
+    }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .title-epic {
+        font-size: 2.5rem;
+    }
+
+    .subtitle-epic {
+        font-size: 1.8rem;
+    }
+
+    .epic-description {
+        font-size: 1.2rem;
+    }
+
+    .slide-title {
+        font-size: 2rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
+/* Easter eggs */
+.secret-dragon {
+    position: fixed;
+    font-size: 5rem;
+    animation: secretDragonFly 5s linear;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+@keyframes secretDragonFly {
+    from {
+        left: -10%;
+        top: 50%;
+    }
+    to {
+        left: 110%;
+        top: 20%;
+    }
+}
