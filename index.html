@@ -3,70 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>🐉 0xARCOS - Portafolio del Reino del Código</title>
+    <title>0xARCOS - Portafolio de Desarrollo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Fondo animado con dragones voladores -->
-    <div class="dragons-background">
-        <div class="dragon-flying dragon1"></div>
-        <div class="dragon-flying dragon2"></div>
-        <div class="dragon-flying dragon3"></div>
-    </div>
-
-    <!-- Partículas de fuego -->
-    <canvas id="fireParticles"></canvas>
-
-    <!-- Mini dragón interactivo que sigue al cursor -->
-    <div id="cursorDragon" class="cursor-dragon">🐲</div>
-
     <!-- Contenedor principal de slides -->
     <div class="presentation-container">
         <!-- Slide 1: Bienvenida -->
         <section class="slide active" id="slide1">
-            <div class="dragon-logo-container">
-                <div class="dragon-logo pulse">
-                    <svg viewBox="0 0 200 200" class="dragon-svg">
-                        <defs>
-                            <linearGradient id="dragonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" style="stop-color:#ff6b35;stop-opacity:1" />
-                                <stop offset="100%" style="stop-color:#f7931e;stop-opacity:1" />
-                            </linearGradient>
-                        </defs>
-                        <!-- Cuerpo del dragón -->
-                        <ellipse cx="100" cy="100" rx="40" ry="30" fill="url(#dragonGradient)"/>
-                        <!-- Cabeza -->
-                        <ellipse cx="75" cy="85" rx="25" ry="20" fill="url(#dragonGradient)"/>
-                        <!-- Ojos -->
-                        <circle cx="70" cy="82" r="4" fill="#fff"/>
-                        <circle cx="71" cy="83" r="2" fill="#000"/>
-                        <!-- Cuernos -->
-                        <polygon points="65,70 60,55 68,72" fill="#8B0000"/>
-                        <polygon points="75,70 80,55 72,72" fill="#8B0000"/>
-                        <!-- Alas -->
-                        <path d="M 90 95 Q 70 75 60 90 Q 70 100 90 95" fill="#ff8c42" opacity="0.8"/>
-                        <path d="M 110 95 Q 130 75 140 90 Q 130 100 110 95" fill="#ff8c42" opacity="0.8"/>
-                        <!-- Cola -->
-                        <path d="M 130 100 Q 150 90 155 85 Q 160 95 155 100 Q 145 105 130 105" fill="url(#dragonGradient)"/>
-                        <!-- Fuego de la boca -->
-                        <path d="M 55 88 L 40 85 L 45 88 L 40 91 L 55 88" fill="#ff4500" class="fire-breath">
-                            <animateTransform
-                                attributeName="transform"
-                                type="scale"
-                                values="1;1.3;1"
-                                dur="0.5s"
-                                repeatCount="indefinite"/>
-                        </path>
-                    </svg>
-                </div>
-            </div>
             <h1 class="title-epic">
-                <span class="glow-text">👾 ¡Bienvenido al Reino del Código!</span>
+                <span class="glow-text">👾 ¡Bienvenido!</span>
             </h1>
             <h2 class="subtitle-epic">Soy <span class="highlight">0xARCOS</span></h2>
-            <p class="epic-description">Domador de Dragones Digitales y Forjador de Software</p>
+            <p class="epic-description">Desarrollador de Software y Entusiasta de la Programación</p>
 
-            <div class="dragon-stats">
+            <div class="stats-container-main">
                 <div class="stat-item">
                     <span class="stat-icon">⚔️</span>
                     <span class="stat-label">Nivel de Código</span>
@@ -76,7 +27,7 @@
                 </div>
                 <div class="stat-item">
                     <span class="stat-icon">🔥</span>
-                    <span class="stat-label">Poder de Dragón</span>
+                    <span class="stat-label">Pasión por el Desarrollo</span>
                     <div class="stat-bar">
                         <div class="stat-fill" style="width: 92%"></div>
                     </div>
@@ -94,41 +45,39 @@
         <!-- Slide 2: Proyectos Destacados -->
         <section class="slide" id="slide2">
             <h2 class="slide-title">
-                <span class="dragon-icon">🐉</span>
-                Tesoros del Reino
-                <span class="dragon-icon">🐉</span>
+                ⭐ Proyectos Destacados ⭐
             </h2>
             <div class="projects-grid">
                 <div class="project-card" data-element="fire">
-                    <div class="card-dragon">🔥</div>
+                    <div class="card-icon">🔥</div>
                     <h3>get_next_line</h3>
                     <p>Lectura eficiente de archivos en C</p>
-                    <div class="card-flames"></div>
-                    <a href="https://github.com/0xARCOS/get_next_line" target="_blank" class="dragon-button">Explorar Tesoro</a>
+                    <div class="card-accent"></div>
+                    <a href="https://github.com/0xARCOS/get_next_line" target="_blank" class="project-button">Explorar Proyecto</a>
                 </div>
 
                 <div class="project-card" data-element="ice">
-                    <div class="card-dragon">❄️</div>
+                    <div class="card-icon">❄️</div>
                     <h3>fract-ol</h3>
                     <p>Visualizador de fractales en tiempo real</p>
-                    <div class="card-flames"></div>
-                    <a href="https://github.com/0xARCOS/fractol" target="_blank" class="dragon-button">Explorar Tesoro</a>
+                    <div class="card-accent"></div>
+                    <a href="https://github.com/0xARCOS/fractol" target="_blank" class="project-button">Explorar Proyecto</a>
                 </div>
 
                 <div class="project-card" data-element="lightning">
-                    <div class="card-dragon">⚡</div>
+                    <div class="card-icon">⚡</div>
                     <h3>ft_printf</h3>
                     <p>Implementación de printf en C puro</p>
-                    <div class="card-flames"></div>
-                    <a href="https://github.com/0xARCOS/printf" target="_blank" class="dragon-button">Explorar Tesoro</a>
+                    <div class="card-accent"></div>
+                    <a href="https://github.com/0xARCOS/printf" target="_blank" class="project-button">Explorar Proyecto</a>
                 </div>
 
                 <div class="project-card" data-element="shadow">
-                    <div class="card-dragon">🌑</div>
+                    <div class="card-icon">🌑</div>
                     <h3>keylogger_tool</h3>
                     <p>Keylogger educativo con cifrado XOR</p>
-                    <div class="card-flames"></div>
-                    <a href="https://github.com/0xARCOS/keylogger_tool" target="_blank" class="dragon-button">Explorar Tesoro</a>
+                    <div class="card-accent"></div>
+                    <a href="https://github.com/0xARCOS/keylogger_tool" target="_blank" class="project-button">Explorar Proyecto</a>
                 </div>
             </div>
         </section>
@@ -136,30 +85,28 @@
         <!-- Slide 3: Tech Stack -->
         <section class="slide" id="slide3">
             <h2 class="slide-title">
-                <span class="dragon-icon">⚡</span>
-                Arsenal del Guerrero
-                <span class="dragon-icon">⚡</span>
+                ⚡ Arsenal Tecnológico ⚡
             </h2>
             <div class="tech-stack">
                 <div class="tech-item" data-tech="c">
-                    <div class="tech-dragon">🐲</div>
+                    <div class="tech-icon">💻</div>
                     <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C">
-                    <div class="tech-level">Maestro Dragón</div>
+                    <div class="tech-level">Nivel Avanzado</div>
                 </div>
                 <div class="tech-item" data-tech="linux">
-                    <div class="tech-dragon">🐉</div>
+                    <div class="tech-icon">🐧</div>
                     <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
-                    <div class="tech-level">Guardián del Reino</div>
+                    <div class="tech-level">Usuario Experimentado</div>
                 </div>
                 <div class="tech-item" data-tech="bash">
-                    <div class="tech-dragon">🔥</div>
+                    <div class="tech-icon">📜</div>
                     <img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash">
-                    <div class="tech-level">Conjurador de Scripts</div>
+                    <div class="tech-level">Scripting Avanzado</div>
                 </div>
                 <div class="tech-item" data-tech="git">
-                    <div class="tech-dragon">⚔️</div>
+                    <div class="tech-icon">🔀</div>
                     <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
-                    <div class="tech-level">Guardián del Tiempo</div>
+                    <div class="tech-level">Control de Versiones</div>
                 </div>
             </div>
 
@@ -171,46 +118,29 @@
         <!-- Slide 4: ¿Qué estoy haciendo? -->
         <section class="slide" id="slide4">
             <h2 class="slide-title">
-                <span class="dragon-icon">🔭</span>
-                Aventuras Actuales
-                <span class="dragon-icon">🔭</span>
+                🔭 Proyectos Actuales 🔭
             </h2>
             <div class="adventures-container">
                 <div class="adventure-item">
                     <div class="adventure-icon">🧩</div>
                     <p>Descifrando los misterios de la <strong>recursividad</strong> en C</p>
                     <div class="adventure-progress">
-                        <div class="progress-dragon">🐉</div>
+                        <div class="progress-bar"></div>
                     </div>
                 </div>
                 <div class="adventure-item">
                     <div class="adventure-icon">🏗️</div>
                     <p>Construyendo proyectos y desafíos desde cero</p>
                     <div class="adventure-progress">
-                        <div class="progress-dragon">🐉</div>
+                        <div class="progress-bar"></div>
                     </div>
                 </div>
                 <div class="adventure-item">
                     <div class="adventure-icon">🖥️</div>
                     <p>Explorando el mundo de <strong>open-source</strong> y contribuyendo a la comunidad</p>
                     <div class="adventure-progress">
-                        <div class="progress-dragon">🐉</div>
+                        <div class="progress-bar"></div>
                     </div>
-                </div>
-            </div>
-
-            <!-- Mini Dragon Pet que puedes alimentar -->
-            <div class="dragon-pet-container">
-                <h3>¡Alimenta al Dragón Mascota!</h3>
-                <div id="dragonPet" class="dragon-pet">🐲</div>
-                <div class="pet-stats">
-                    <div>Felicidad: <span id="happiness">50</span>%</div>
-                    <div>Energía: <span id="energy">50</span>%</div>
-                </div>
-                <div class="pet-controls">
-                    <button class="feed-button" onclick="feedDragon()">🍖 Alimentar</button>
-                    <button class="play-button" onclick="playWithDragon()">🎮 Jugar</button>
-                    <button class="fire-button" onclick="dragonBreatheFire()">🔥 ¡Fuego!</button>
                 </div>
             </div>
         </section>
@@ -218,34 +148,21 @@
         <!-- Slide 5: Conectemos -->
         <section class="slide" id="slide5">
             <h2 class="slide-title">
-                <span class="dragon-icon">🌍</span>
-                ¡Únete a la Alianza!
-                <span class="dragon-icon">🌍</span>
+                🌍 ¡Conectemos! 🌍
             </h2>
             <p class="contact-text">Si quieres hablar sobre código, proyectos o simplemente compartir ideas:</p>
 
             <div class="contact-container">
                 <a href="https://www.linkedin.com/in/ariel-arcos-3731a5254/" target="_blank" class="contact-link linkedin">
-                    <span class="contact-dragon">🐉</span>
+                    <span class="contact-icon">💼</span>
                     <span>LinkedIn</span>
-                    <span class="contact-flame">🔥</span>
+                    <span class="contact-accent">🔗</span>
                 </a>
                 <a href="https://github.com/0xARCOS" target="_blank" class="contact-link github">
-                    <span class="contact-dragon">🐲</span>
+                    <span class="contact-icon">💻</span>
                     <span>GitHub</span>
-                    <span class="contact-flame">⚡</span>
+                    <span class="contact-accent">⭐</span>
                 </a>
-            </div>
-
-            <!-- Minijuego: Atrapa las monedas -->
-            <div class="minigame-container">
-                <h3>🎮 Minijuego: ¡Atrapa las Monedas con el Dragón!</h3>
-                <div id="gameArea" class="game-area">
-                    <div id="gameScore">Puntuación: <span id="score">0</span></div>
-                    <div id="gameDragon" class="game-dragon">🐉</div>
-                </div>
-                <button id="startGame" class="start-game-button">¡Comenzar Aventura!</button>
-                <p class="game-instructions">Usa las flechas ← → o A/D para mover el dragón</p>
             </div>
         </section>
     </div>
@@ -253,8 +170,7 @@
     <!-- Controles de navegación -->
     <div class="navigation">
         <button class="nav-button prev" onclick="previousSlide()">
-            <span class="nav-dragon">🐉</span>
-            <span>Anterior</span>
+            <span>◀ Anterior</span>
         </button>
         <div class="slide-indicators">
             <span class="indicator active" data-slide="0"></span>
@@ -264,8 +180,7 @@
             <span class="indicator" data-slide="4"></span>
         </div>
         <button class="nav-button next" onclick="nextSlide()">
-            <span>Siguiente</span>
-            <span class="nav-dragon">🐉</span>
+            <span>Siguiente ▶</span>
         </button>
     </div>
 
@@ -273,11 +188,6 @@
     <button class="fullscreen-button" onclick="toggleFullscreen()">
         <span id="fullscreenIcon">⛶</span>
     </button>
-
-    <!-- Contador de dragones derrotados (Easter egg) -->
-    <div class="dragon-counter">
-        🐲 Dragones encontrados: <span id="dragonCount">0</span>
-    </div>
 
     <script src="script.js"></script>
 </body>
