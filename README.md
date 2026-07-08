@@ -1,9 +1,4 @@
-# Ariel Arcos
-
-Software engineer in training at [42 Madrid](https://www.42madrid.com/)  · Based in Madrid.
-
-I work close to the metal — systems programming in C, Linux internals, and now building full-stack products with AI at the core.
-
+![Header](./github-header-banner.png)
 ---
 
 ## Projects
