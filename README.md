@@ -3,13 +3,45 @@
 
 ## Projects
 
-| Project | Description | Stack |
-|---|---|---|
-| [`push_swap`](https://github.com/0xARCOS/push_swap) | Sorting algorithm with constrained operations — scored 96/100 | C |
-| [`fract-ol`](https://github.com/0xARCOS/fractol) | Real-time fractal renderer with zoom and color mapping | C, MiniLibX |
-| [`get_next_line`](https://github.com/0xARCOS/get_next_line) | Efficient buffered file reading from a file descriptor | C |
-| [`ft_printf`](https://github.com/0xARCOS/printf) | Custom implementation of printf | C |
-| [`keylogger_tool`](https://github.com/0xARCOS/keylogger_tool) | Educational keylogger with XOR encryption | C |
+<table>
+<tr>
+<td width="50%">
+
+[![push_swap](https://github-readme-stats-rickstaa.vercel.app/api/pin/?username=0xARCOS&repo=push_swap&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff#gh-dark-mode-only)](https://github.com/0xARCOS/push_swap)
+[![push_swap](https://github-readme-stats-rickstaa.vercel.app/api/pin/?username=0xARCOS&repo=push_swap&hide_border=true#gh-light-mode-only)](https://github.com/0xARCOS/push_swap)
+
+</td>
+<td width="50%">
+
+[![fract-ol](https://github-readme-stats-rickstaa.vercel.app/api/pin/?username=0xARCOS&repo=fractol&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff#gh-dark-mode-only)](https://github.com/0xARCOS/fractol)
+[![fract-ol](https://github-readme-stats-rickstaa.vercel.app/api/pin/?username=0xARCOS&repo=fractol&hide_border=true#gh-light-mode-only)](https://github.com/0xARCOS/fractol)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+[![get_next_line](https://github-readme-stats-rickstaa.vercel.app/api/pin/?username=0xARCOS&repo=get_next_line&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff#gh-dark-mode-only)](https://github.com/0xARCOS/get_next_line)
+[![get_next_line](https://github-readme-stats-rickstaa.vercel.app/api/pin/?username=0xARCOS&repo=get_next_line&hide_border=true#gh-light-mode-only)](https://github.com/0xARCOS/get_next_line)
+
+</td>
+<td width="50%">
+
+[![ft_printf](https://github-readme-stats-rickstaa.vercel.app/api/pin/?username=0xARCOS&repo=printf&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff#gh-dark-mode-only)](https://github.com/0xARCOS/printf)
+[![ft_printf](https://github-readme-stats-rickstaa.vercel.app/api/pin/?username=0xARCOS&repo=printf&hide_border=true#gh-light-mode-only)](https://github.com/0xARCOS/printf)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+[![keylogger_tool](https://github-readme-stats-rickstaa.vercel.app/api/pin/?username=0xARCOS&repo=keylogger_tool&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff#gh-dark-mode-only)](https://github.com/0xARCOS/keylogger_tool)
+[![keylogger_tool](https://github-readme-stats-rickstaa.vercel.app/api/pin/?username=0xARCOS&repo=keylogger_tool&hide_border=true#gh-light-mode-only)](https://github.com/0xARCOS/keylogger_tool)
+
+</td>
+<td width="50%"></td>
+</tr>
+</table>
 
 ---
 
@@ -33,9 +65,9 @@
 ---
 
 <picture>
-  <source srcset="https://github-readme-stats.vercel.app/api?username=0xARCOS&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff" media="(prefers-color-scheme: dark)" />
-  <source srcset="https://github-readme-stats.vercel.app/api?username=0xARCOS&show_icons=true&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img src="https://github-readme-stats.vercel.app/api?username=0xARCOS&show_icons=true&hide_border=true" />
+  <source srcset="https://github-readme-stats-rickstaa.vercel.app/api?username=0xARCOS&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff" media="(prefers-color-scheme: dark)" />
+  <source srcset="https://github-readme-stats-rickstaa.vercel.app/api?username=0xARCOS&show_icons=true&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+  <img src="https://github-readme-stats-rickstaa.vercel.app/api?username=0xARCOS&show_icons=true&hide_border=true" />
 </picture>
 
 ---
