@@ -33,9 +33,9 @@
 ---
 
 <picture>
-  <source srcset="https://github-readme-stats.vercel.app/api?username=0xARCOS&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff" media="(prefers-color-scheme: dark)" />
-  <source srcset="https://github-readme-stats.vercel.app/api?username=0xARCOS&show_icons=true&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img src="https://github-readme-stats.vercel.app/api?username=0xARCOS&show_icons=true&hide_border=true" />
+  <source srcset="https://github-readme-stats-rickstaa.vercel.app/api?username=0xARCOS&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=58a6ff" media="(prefers-color-scheme: dark)" />
+  <source srcset="https://github-readme-stats-rickstaa.vercel.app/api?username=0xARCOS&show_icons=true&hide_border=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
+  <img src="https://github-readme-stats-rickstaa.vercel.app/api?username=0xARCOS&show_icons=true&hide_border=true" />
 </picture>
 
 ---
