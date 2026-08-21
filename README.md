@@ -42,12 +42,15 @@
 - Working through the [42 Common Core](https://github.com/0xARCOS) curriculum — systems programming, algorithms, Unix
 - Building AI-integrated products for real clients (therapy tools, automation workflows)
 - Deepening Python: OOP, design patterns, clean architecture
+
 <div align="center">
-  
+
+[![ariarcos's 42 stats](https://42cv.dev/api/badge/cmt27xufi000a0kp494tm3wa0/stats?cursusId=21&coalitionId=carbon)](https://42cv.dev)
+
 ![](https://www.codewars.com/users/0xARCOS/badges/large)
 
 </div>
 
 ---
 
-[LinkedIn](https://www.linkedin.com/in/ariel-arcos-3731a5254/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ariel-arcos-3731a5254/)
