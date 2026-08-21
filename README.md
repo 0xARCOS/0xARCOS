@@ -7,9 +7,9 @@
 
 ---
 
-## 🛠️ Tech Stack
-
 <div align="center">
+
+## 🛠️ Tech Stack
 
 ### 💻 Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -34,14 +34,14 @@
 ### 🌐 Deployment
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-</div>
+
 
 
 ## Currently
 
-- Working through the [42 Common Core](https://github.com/0xARCOS) curriculum — systems programming, algorithms, Unix
-- Building AI-integrated products for real clients (therapy tools, automation workflows)
-- Deepening Python: OOP, design patterns, clean architecture
+</div>
+
+
 
 <div align="center">
 
@@ -50,6 +50,10 @@
 ![](https://www.codewars.com/users/0xARCOS/badges/large)
 
 </div>
+
+- Working through the [42 Common Core](https://github.com/0xARCOS) curriculum — systems programming, algorithms, Unix
+- Building AI-integrated products for real clients (therapy tools, automation workflows)
+- Deepening Python: OOP, design patterns, clean architecture
 
 ---
 
