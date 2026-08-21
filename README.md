@@ -4,13 +4,13 @@
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Software+Developer+Student;Systems+Programming;42+Madrid+Student;Freelancer)](https://git.io/typing-svg)
 
+![wave](https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=80&section=header)
+
 </div>
 
----
+<div align="center">
 
 ## 🛠️ Tech Stack
-
-<div align="center">
 
 ### 💻 Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -34,23 +34,25 @@
 ### 🌐 Deployment
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-</div>
-
----
+![wave](https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=80&section=header)
 
 ## 📍 Currently
 
-- Working through the [42 Common Core](https://github.com/0xARCOS) curriculum — systems programming, algorithms, Unix
-- Building AI-integrated products for real clients (therapy tools, automation workflows)
+  Working through the [42 Common Core](https://github.com/0xARCOS) curriculum — systems programming, algorithms, Unix.
+  
+  Building AI-integrated products for real clients (therapy tools, automation workflows).
+
+</div>
 
 <div align="center">
 
 [![ariarcos's 42 stats](https://42cv.dev/api/badge/cmt27xufi000a0kp494tm3wa0/stats?cursusId=21&coalitionId=carbon)](https://42cv.dev)
 ![](https://www.codewars.com/users/0xARCOS/badges/large)
 
+![wave](https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=80&section=header)
+
 </div>
 
----
 
 ## 📊 Activity
 
@@ -60,10 +62,10 @@
 
 </div>
 
----
-
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ariel-arcos-3731a5254/)
+
+![footer wave](https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=120&section=footer)
 
 </div>
