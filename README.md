@@ -34,9 +34,6 @@
 ### 🌐 Deployment
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
 
-
-
-
 ## Currently
 
 </div>
@@ -51,9 +48,11 @@
 
 </div>
 
+[![3D contribution graph](./profile-3d-contrib/profile-night-green.svg)](https://github.com/yoshi389111/github-profile-3d-contrib)
+
+
 - Working through the [42 Common Core](https://github.com/0xARCOS) curriculum — systems programming, algorithms, Unix
 - Building AI-integrated products for real clients (therapy tools, automation workflows)
-- Deepening Python: OOP, design patterns, clean architecture
 
 ---
 
