@@ -1,4 +1,4 @@
-![Header](Generar_banner_para_github_2K_202608210207.jpeg)
+![Header](Banner.jpeg)
 <div align="center">
   
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&duration=4000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Software+Developer+Student;Systems+Programming;42+Madrid+Student;Freelancer)](https://git.io/typing-svg)
