@@ -10,25 +10,25 @@
 
 <div align="center">
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-### 💻 Languages
+###  Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
 
-### 🚀 Development
+###  Development
 ![Claude](https://img.shields.io/badge/Claude-0D1117?style=for-the-badge&logo=anthropic&logoColor=white)
 ![VS%20Code](https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 ![npm](https://img.shields.io/badge/npm-CB3837?style=for-the-badge&logo=npm&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 
-### 🖥️ Infrastructure & Virtualization
+###  Infrastructure & Virtualization
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![VirtualBox](https://img.shields.io/badge/VirtualBox-183A61?style=for-the-badge&logo=virtualbox&logoColor=white)
 
-### 📦 Backend & Database
+###  Backend & Database
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 
 ### 🌐 Deployment
@@ -36,7 +36,7 @@
 
 ![wave](https://capsule-render.vercel.app/api?type=waving&color=58A6FF&height=80&section=header)
 
-## 📍 Currently
+##  Currently
 
   Working through the [42 Common Core](https://github.com/0xARCOS) curriculum — systems programming, algorithms, Unix.
   
@@ -54,7 +54,7 @@
 </div>
 
 
-## 📊 Activity
+##  Activity
 
 <div align="center">
 
